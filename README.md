@@ -1,7 +1,3 @@
-# amr
-This repository will help you to perform bioinformatics analysis on sequencing data from different sequencing platform (ONT, Illumination)
-
-
 # Welcome to the AMR Analysis Pipeline Guide
 
 Antimicrobial Resistance (AMR) poses a significant challenge to global health, rendering many standard treatments ineffective against bacterial infections. Understanding and identifying AMR mechanisms are crucial steps toward combating this issue. This guide is designed to demystify the process of analyzing sequencing data to detect AMR genes, making it accessible even to those without prior experience in bioinformatics or Linux systems.​
