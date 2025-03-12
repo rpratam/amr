@@ -17,5 +17,32 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 * **Comprehensive Antibiotic Resistance Database (CARD):** Provides data on the molecular basis of AMR, including resistance genes and their associated phenotypes. ​
 * **Resistance Gene Identifier (RGI):** A tool within CARD that predicts resistomes from genomic data based on homology and SNP models. ​
 
-## Implementing the Pipeline
-For those new to bioinformatics or unfamiliar with Linux, this resources will guide you step-by-step from raw reads fastq to AMR annotation. All explained in their specific section (quality check, assembly, etc) ​
+# Table of Contents
+We outined
+
+### Short-reads Sequencing Technology (Illumina, MGI)
+
+
+-- DNA Sequencing Platform
+--- Short-reads technology (NGS)
+---- Illumina
+---- MGI
+--- Long-reads technology (TGS)
+---- Oxford Nanopore Technology
+---- Pacific Bioscience
+-- Importance of linux
+--- only have Windows? no Problem, WSL2 got your back
+--- Install conda for easier environment setup
+--- Basic on linux command
+-- Bioinformatics pipeline
+--- NGS Whole Genome Sequence data (Illumina, MGI)
+---- Whats is Fastq files? why it is important
+---- Quality check for your fastq using FastQC
+---- Another tools for QC and filtering, Fastp
+---- Assemble your genome using Spades/Shovill
+---- Check for the quality of assembly using QUAST
+---- What your assembly looks like? Bandage will show you!
+---- Is your genome assembly complete? Busco can help check that!
+---- Does your assembly free from contamination? lets ask CheckM!
+---- Annotate your genome for functional gene with Prokka
+---- Lets see if your genome contain that dangerous AMR, come in Abricate!

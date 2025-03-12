@@ -25,4 +25,8 @@ Lets start from the first page of Introduction to [AMR Analysis Pipeline.][AMR_A
 
 Note: This guide is continually updated to reflect the latest advancements in sequencing technologies and AMR analysis methodologies.​
 
+This works is enabled by the support from [The UK aid Fleming Fund
+Country Grant to Indonesia Phase II.][Fleming Fund]
+
 [AMR_Analysis_Pipeline]: https://github.com/rpratam/amr/blob/main/AMR_Analysis_Pipeline.md
+[Fleming Fund]: https://www.flemingfund.org/publications/phase-ii-of-fleming-fund-launches-in-indonesia/
