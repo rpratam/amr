@@ -1,0 +1,43 @@
+![collaboration-logo](../IM/Github_image_banner.png)
+
+# The technology that build for completeness
+
+​​Long-read sequencing technologies have revolutionized genomic research by enabling the sequencing of lengthy DNA fragments, thereby providing more comprehensive insights into genomic structures, complex regions, and structural variations. Two prominent platforms in this domain are Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio), each employing unique methodologies to achieve high-throughput, accurate sequencing.​
+
+Oxford Nanopore Technologies (ONT)
+
+ONT's sequencing technology is based on the principle of nanopore sequencing, which involves threading single-stranded DNA or RNA molecules through a nanopore—a nanoscale protein channel embedded in a synthetic membrane. As nucleotides pass through the nanopore, they cause characteristic disruptions in an ionic current, allowing for real-time identification of the nucleotide sequence. ​
+
+The general workflow for ONT sequencing includes:
+
+Library Preparation: Genomic DNA is fragmented, and sequencing adapters are ligated to the ends of these fragments. ONT offers various kits tailored to specific applications, such as rapid sequencing or PCR-free protocols, to accommodate different sample types and experimental needs.​
+Loading onto the Sequencer: The prepared DNA library is introduced into the sequencing device, such as the MinION, GridION, or PromethION. These platforms differ in throughput and capacity, catering to diverse research requirements.​
+ru.wikipedia.org
+Real-Time Sequencing: As DNA molecules translocate through the nanopores, changes in ionic current are measured and translated into nucleotide sequences by the system's software. This real-time data acquisition allows for immediate analysis and decision-making during experiments.​
+Pacific Biosciences (PacBio)
+
+PacBio's sequencing technology, known as Single Molecule Real-Time (SMRT) sequencing, utilizes zero-mode waveguides (ZMWs)—nanophotonic structures that enable the observation of individual DNA polymerase molecules synthesizing DNA in real-time. This approach allows for the direct detection of nucleotide incorporation events, resulting in long read lengths and high consensus accuracy. ​
+en.wikipedia.org
+en.wikipedia.org
+
+The general workflow for PacBio sequencing involves:
+
+Library Preparation: High-quality genomic DNA is sheared into large fragments, and hairpin adapters are ligated to both ends, forming a circular DNA molecule known as a SMRTbell template. This structure enables continuous sequencing around the circular template, enhancing read lengths.​
+Loading onto the Sequencer: The SMRTbell templates are loaded onto a SMRT Cell, which contains thousands of ZMWs. Each ZMW captures the activity of a single DNA polymerase molecule, allowing for parallel sequencing of numerous DNA fragments.​
+Real-Time Sequencing: As the DNA polymerase incorporates fluorescently labeled nucleotides, the emitted fluorescence is detected in real-time, producing long reads that can span tens of kilobases. This capability is particularly advantageous for resolving complex genomic regions and structural variants.​
+Reagents and Consumables
+
+Both ONT and PacBio provide specialized reagents and consumables to support their sequencing platforms:
+
+ONT Reagents:
+Sequencing Kits: These kits include all necessary components for library preparation, such as fragmentation enzymes, adapters, and ligation reagents. ONT offers various kits optimized for specific applications, including rapid sequencing and direct RNA sequencing.​
+Flow Cells: ONT's flow cells house the nanopores essential for sequencing. Different flow cells are available, varying in pore count and throughput capacity, to accommodate diverse experimental scales.​
+PacBio Reagents:
+SMRTbell Template Prep Kits: These kits provide the enzymes and buffers required for constructing SMRTbell templates from genomic DNA.​
+Sequencing Kits: PacBio's sequencing kits contain fluorescently labeled nucleotides and DNA polymerase enzymes optimized for SMRT sequencing.​
+SMRT Cells: These consumables contain the ZMWs where sequencing reactions occur. Different versions of SMRT Cells offer varying densities of ZMWs, influencing the throughput of sequencing runs.​
+en.wikipedia.org
++1
+en.wikipedia.org
++1
+In summary, long-read sequencing technologies developed by ONT and PacBio have significantly advanced our ability to explore complex genomic landscapes. ONT's nanopore sequencing offers real-time data acquisition and portability, making it suitable for diverse applications, including field-based studies. PacBio's SMRT sequencing provides high-fidelity long reads, which are invaluable for assembling genomes and detecting structural variations. The continuous evolution of these technologies and their associated reagents ensures that researchers have robust tools to address intricate genomic questions.​

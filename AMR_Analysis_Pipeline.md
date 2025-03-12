@@ -36,12 +36,12 @@ We divide the material into several section
 * Bioinformatics pipeline
  * Before start, understand the raw sequence data (*.fastq)
  * NGS Whole Genome Sequence analysis (Illumina, MGI)
-   * Quality check for your fastq using FastQC
-   * Another tools for QC and filtering, Fastp
-   * Assemble your genome using Spades/Shovill
-   * Check for the quality of assembly using QUAST
-   * What your assembly looks like? Bandage will show you!
-   * Is your genome assembly complete? Busco can help check that!
-   * Does your assembly free from contamination? lets ask CheckM!
-   * Annotate your genome for functional gene with Prokka
-   * Lets see if your genome contain that dangerous AMR, say hello to Abricate!
+    * Quality check for your fastq using FastQC
+    * Another tools for QC and filtering, Fastp
+    * Assemble your genome using Spades/Shovill
+    * Check for the quality of assembly using QUAST
+    * What your assembly looks like? Bandage will show you!
+    * Is your genome assembly complete? Busco can help check that!
+    * Does your assembly free from contamination? lets ask CheckM!
+    * Annotate your genome for functional gene with Prokka
+    * Lets see if your genome contain that dangerous AMR, say hello to Abricate!
