@@ -34,8 +34,8 @@ We divide the material into several section
   * Install conda for easier environment setup
   * Basic on linux command
 * Bioinformatics pipeline
-  * Before start, understand the raw sequence data (*.fastq)
-  * NGS Whole Genome Sequence analysis (Illumina, MGI)
+ * Before start, understand the raw sequence data (*.fastq)
+ * NGS Whole Genome Sequence analysis (Illumina, MGI)
    * Quality check for your fastq using FastQC
    * Another tools for QC and filtering, Fastp
    * Assemble your genome using Spades/Shovill
