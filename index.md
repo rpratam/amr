@@ -20,6 +20,9 @@ The rise of AMR threatens the effectiveness of antibiotics, making infections ha
 Each section is structured to build upon the previous one, starting with foundational knowledge and progressing to more advanced topics. Practical examples, visual aids, and links to additional resources are provided to enhance your learning experience.​
 
 ## Get Started
-Lets start from the first page of Introduction to AMR Analysis Pipeline.
+Lets start from the first page of Introduction to [AMR Analysis Pipeline.][AMR_Analysis_Pipeline]
+
 
 Note: This guide is continually updated to reflect the latest advancements in sequencing technologies and AMR analysis methodologies.​
+
+[AMR_Analysis_Pipeline]: https://github.com/rpratam/amr/blob/main/AMR_Analysis_Pipeline.md
