@@ -24,11 +24,11 @@ We divide the material into several section
 
 * DNA Sequencing Platform
   * Short-reads technology (NGS)
-   * Illumina
-   * MGI
+    * Illumina
+    * MGI
   * Long-reads technology (TGS)
-   * Oxford Nanopore Technology
-   * Pacific Bioscience
+    * Oxford Nanopore Technology
+    * Pacific Bioscience
 * Importance of linux
   * only have Windows? no Problem, WSL2 got your back
   * Install conda for easier environment setup
