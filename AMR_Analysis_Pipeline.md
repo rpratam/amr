@@ -1,3 +1,5 @@
+![collaboration-logo](./IM/Github_image_banner.png)
+
 # Introduction to AMR Analysis Pipeline
 
 Antimicrobial Resistance (AMR) analysis involves identifying genes in bacterial genomes that confer resistance to antibiotics. With advancements in sequencing technologies, researchers can now detect these resistance genes directly from sequencing data, enabling proactive monitoring and management of AMR.​
@@ -18,31 +20,28 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 * **Resistance Gene Identifier (RGI):** A tool within CARD that predicts resistomes from genomic data based on homology and SNP models. ​
 
 # Table of Contents
-We outined
+We divide the material into several section
 
-### Short-reads Sequencing Technology (Illumina, MGI)
-
-
--- DNA Sequencing Platform
---- Short-reads technology (NGS)
----- Illumina
----- MGI
---- Long-reads technology (TGS)
----- Oxford Nanopore Technology
----- Pacific Bioscience
--- Importance of linux
---- only have Windows? no Problem, WSL2 got your back
---- Install conda for easier environment setup
---- Basic on linux command
--- Bioinformatics pipeline
---- NGS Whole Genome Sequence data (Illumina, MGI)
----- Whats is Fastq files? why it is important
----- Quality check for your fastq using FastQC
----- Another tools for QC and filtering, Fastp
----- Assemble your genome using Spades/Shovill
----- Check for the quality of assembly using QUAST
----- What your assembly looks like? Bandage will show you!
----- Is your genome assembly complete? Busco can help check that!
----- Does your assembly free from contamination? lets ask CheckM!
----- Annotate your genome for functional gene with Prokka
----- Lets see if your genome contain that dangerous AMR, come in Abricate!
+* DNA Sequencing Platform
+  * Short-reads technology (NGS)
+   * Illumina
+   * MGI
+  * Long-reads technology (TGS)
+   * Oxford Nanopore Technology
+   * Pacific Bioscience
+* Importance of linux
+  * only have Windows? no Problem, WSL2 got your back
+  * Install conda for easier environment setup
+  * Basic on linux command
+* Bioinformatics pipeline
+  * Before start, understand the raw sequence data (*.fastq)
+  * NGS Whole Genome Sequence analysis (Illumina, MGI)
+   * Quality check for your fastq using FastQC
+   * Another tools for QC and filtering, Fastp
+   * Assemble your genome using Spades/Shovill
+   * Check for the quality of assembly using QUAST
+   * What your assembly looks like? Bandage will show you!
+   * Is your genome assembly complete? Busco can help check that!
+   * Does your assembly free from contamination? lets ask CheckM!
+   * Annotate your genome for functional gene with Prokka
+   * Lets see if your genome contain that dangerous AMR, say hello to Abricate!
