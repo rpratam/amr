@@ -20,7 +20,7 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 * **Resistance Gene Identifier (RGI):** A tool within CARD that predicts resistomes from genomic data based on homology and SNP models. ​
 
 # Table of Contents
-We divide the material into several section
+The materials are divided into several section
 
 * DNA Sequencing Platform
   * Short-reads technology (NGS)
