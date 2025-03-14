@@ -26,13 +26,13 @@ The materials are divided into several section
   * [Short-reads technology (NGS)](./1_DNA_Sequencing_Platform/1.1_short_reads_tech.md)
     * Illumina
     * MGI
-  * Long-reads technology (TGS)
+  * [Long-reads technology (TGS)](./1_DNA_Sequencing_Platform/1.2_long-reads-tech.md)
     * Oxford Nanopore Technology
     * Pacific Bioscience
 * Importance of linux
-  * only have Windows? no Problem, WSL2 got your back
-  * Install conda for easier environment setup
-  * Basic on linux command
+  * [only have Windows? no Problem, WSL2 got your back](./2_Importance_of_Linux/2.1_linux_on_windows.md)
+  * [Install conda for easier environment setup](2_Importance_of_Linux/2.2_conda_installation.md)
+  * [Basic on linux command](2_Importance_of_Linux/2.3_basic_linux_commands.md)
 * Bioinformatics pipeline
  * Before start, understand the raw sequence data (*.fastq)
  * NGS Whole Genome Sequence analysis (Illumina, MGI)
