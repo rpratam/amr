@@ -19,7 +19,7 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 * **Comprehensive Antibiotic Resistance Database (CARD):** Provides data on the molecular basis of AMR, including resistance genes and their associated phenotypes. ​
 * **Resistance Gene Identifier (RGI):** A tool within CARD that predicts resistomes from genomic data based on homology and SNP models. ​
 
-# Table of Contents
+# **Table of Contents**
 The materials are divided into several section
 
 * DNA Sequencing Platform
@@ -36,9 +36,8 @@ The materials are divided into several section
 * Bioinformatics pipeline
  * [Before start, understand the raw sequence data (*.fastq)](./3_Bioinformatics_Pipeline/3.1_raw_sequencing_data.md)
  * NGS Whole Genome Sequence analysis (Illumina, MGI)
-    * Quality check for your fastq using FastQC
-    * Another tools for QC and filtering, Fastp
-    * Assemble your genome using Spades/Shovill
+    * [Quality check and filter for your fastq using Fastp](./3_Bioinformatics_Pipeline/3.2_QC-filtering_using_fastp.md)
+    * [Assemble your genome using Spades/Shovill](./3_Bioinformatics_Pipeline/3.3_assembly_using_shovill.md)
     * Check for the quality of assembly using QUAST
     * What your assembly looks like? Bandage will show you!
     * Is your genome assembly complete? Busco can help check that!
