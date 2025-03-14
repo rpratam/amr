@@ -1,6 +1,6 @@
 ![collaboration-logo](./IM/Github_image_banner.png)
 
-# Introduction to AMR Analysis Pipeline
+# **Introduction to AMR Analysis Pipeline**
 
 Antimicrobial Resistance (AMR) analysis involves identifying genes in bacterial genomes that confer resistance to antibiotics. With advancements in sequencing technologies, researchers can now detect these resistance genes directly from sequencing data, enabling proactive monitoring and management of AMR.​
 
