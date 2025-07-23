@@ -1,32 +1,106 @@
 ![collaboration-logo](../IM/Github_image_banner.png)
 
-# Short-reads Technology that Initiate Massive Parallel Sequencing
+# **Sequencing Technologies: Illumina vs. Oxford Nanopore Technologies**
 
-​Short-read sequencing technologies have revolutionized genomics by enabling high-throughput, accurate, and cost-effective DNA sequencing. Two prominent platforms in this domain are Illumina and MGI, each employing distinct methodologies to achieve rapid and precise sequencing results.​ There are several
+The choice of sequencing technology significantly impacts the approach, capabilities, and outcomes of WGS-based AMR analysis. Two dominant platforms currently lead the field, each with distinct advantages and considerations:
 
-## Illumina Sequencing Technology
+### Illumina Sequencing Technology
 
-Illumina's sequencing platforms are based on the principle of "sequencing by synthesis" (SBS), a method that determines DNA sequences through the incorporation of fluorescently labeled nucleotides during DNA synthesis. The general workflow involves several key steps:​
+**Illumina platforms** utilize sequencing-by-synthesis chemistry to generate high-quality, short reads typically ranging from 75 to 300 base pairs. This technology has been the gold standard for genomic sequencing due to its exceptional accuracy and cost-effectiveness.
 
-1. **Library Preparation:** Genomic DNA is fragmented into smaller pieces, typically ranging from 50 to 500 base pairs. Adapters containing specific sequences are then ligated to both ends of these fragments. These adapters serve multiple purposes: they facilitate the attachment of DNA fragments to the flow cell, provide priming sites for amplification and sequencing, and allow for sample multiplexing through unique index sequences.
- ​
-2. **Cluster Generation:** The adapter-ligated DNA fragments are introduced into a flow cell, a glass slide with lanes coated with oligonucleotides complementary to the adapter sequences. Through a process called bridge amplification, each DNA fragment is clonally amplified to form clusters of identical sequences. This amplification enhances the signal during sequencing, ensuring accurate base calling. ​
+**Key Characteristics:**
+- **High accuracy**: Error rates typically <0.1%, ensuring reliable variant calling
+- **High throughput**: Capable of generating hundreds of millions of reads per run
+- **Cost-effective**: Lower per-base sequencing costs, especially for high-throughput applications
+- **Mature bioinformatics**: Well-established analysis pipelines and extensive tool availability
+- **Standardized workflows**: Reproducible protocols widely adopted in clinical and research settings
 
-3. **Sequencing by Synthesis:** During this step, fluorescently labeled reversible terminator nucleotides are incorporated into the growing DNA strand by DNA polymerase. Each of the four nucleotides emits a distinct fluorescent signal upon incorporation, allowing real-time detection of the added base. After each incorporation, the fluorescent label and the terminating group are chemically removed, permitting the next cycle of nucleotide addition. This cyclic process is repeated, enabling the determination of the DNA sequence in a massively parallel manner. ​
+**Applications in AMR Analysis:**
+- Accurate identification of point mutations and small indels
+- Reliable detection of known resistance genes
+- High-resolution strain typing and phylogenetic analysis
+- Large-scale surveillance studies and population genomics
+- Clinical diagnostics requiring high accuracy
 
-Illumina's platforms, such as the MiSeq, NextSeq, and NovaSeq series, are widely adopted due to their high accuracy, scalability, and versatility across various genomic applications. ​
-en.wikipedia.org
+### Oxford Nanopore Technologies (ONT)
 
-## MGI Sequencing Technology
+**Oxford Nanopore platforms** employ nanopore sequencing technology to generate long reads, typically ranging from hundreds to hundreds of thousands of base pairs. This technology offers unique advantages for complex genomic analyses.
 
-MGI, a subsidiary of BGI Group, offers sequencing platforms that leverage DNA nanoball sequencing combined with combinatorial probe-anchor synthesis (cPAS) technology. This approach encompasses the following steps:​
+**Key Characteristics:**
+- **Long reads**: Average read lengths of 10-50 kb, with some reads exceeding 100 kb
+- **Real-time sequencing**: Live data streaming enables rapid analysis during sequencing
+- **Portable platforms**: Compact devices suitable for point-of-care and field applications
+- **Direct RNA/DNA sequencing**: No amplification bias, preserves native modifications
+- **Rapid library preparation**: Sample-to-sequence workflows achievable in hours
 
-1. **Library Preparation:** Similar to Illumina, genomic DNA is fragmented, and adapters are ligated to the fragments. These adapters contain sequences necessary for subsequent amplification and sequencing processes.
-​
-2. **DNA Nanoball (DNB) Formation:** The adapter-ligated DNA fragments undergo rolling circle replication, resulting in the formation of DNA nanoballs—highly compact, circular DNA structures. This amplification method is PCR-free, reducing amplification bias and errors associated with PCR. ​
+**Applications in AMR Analysis:**
+- Resolution of complex genomic structures and repetitive regions
+- Complete characterization of resistance plasmids and mobile genetic elements
+- Real-time outbreak investigation and contact tracing
+- Point-of-care diagnostics in resource-limited settings
+- Detection of structural variants and large-scale genomic rearrangements
 
-3. **Loading onto Patterned Arrays:** The DNBs are loaded onto a patterned array chip, ensuring uniform spacing and high-density packing. This arrangement enhances sequencing accuracy and throughput by allowing precise imaging and reduced signal interference. ​
+## Comparative Analysis: Technology Selection Considerations
 
-4. **Sequencing by cPAS:** Using combinatorial probe-anchor synthesis, fluorescently labeled nucleotides are incorporated based on the template sequence. The emitted fluorescence is detected to determine the DNA sequence. This method allows for high-throughput sequencing with reduced error rates. ​
+| Aspect | Illumina | Oxford Nanopore |
+|--------|----------|-----------------|
+| **Read accuracy** | >99.9% | ~95-98% (improving) |
+| **Read length** | 75-300 bp | 10-50+ kb average |
+| **Throughput** | Very high | Moderate to high |
+| **Cost per base** | Low | Moderate |
+| **Turnaround time** | 1-3 days | Hours to 1 day |
+| **Equipment cost** | High | Low to moderate |
+| **Portability** | Limited | High |
+| **Assembly quality** | Good contiguity | Excellent contiguity |
+| **Plasmid resolution** | Challenging | Excellent |
+| **Point mutations** | Excellent detection | Good detection |
 
-MGI's platforms, such as the DNBSEQ series, are recognized for their high throughput, cost-effectiveness, and suitability for large-scale genomic projects. ​
+## Integrated Workflow Overview
+
+Modern WGS-based AMR analysis often benefits from hybrid approaches that leverage the strengths of both technologies. However, platform-specific workflows are also highly effective when optimized appropriately.
+
+**Core Analysis Steps:**
+1. **Quality Control and Preprocessing**: Raw sequencing data assessment and filtering
+2. **Genome Assembly**: Reconstruction of genomic sequences from sequencing reads
+3. **Assembly Quality Assessment**: Evaluation of assembly completeness and accuracy
+4. **Assembly Visualization**: Structural analysis of genomic organization
+5. **Resistance Gene Detection**: Identification and characterization of AMR determinants
+6. **Phylogenetic Analysis**: Evolutionary relationships and transmission tracking
+7. **Report Generation**: Comprehensive AMR profile summarization
+
+## Clinical and Public Health Applications
+
+WGS-based AMR analysis has transformative applications across multiple domains:
+
+**Clinical Microbiology:**
+- Rapid resistance profiling for treatment guidance
+- Infection control and hospital epidemiology
+- Precision antimicrobial therapy selection
+
+**Public Health Surveillance:**
+- National and international AMR monitoring
+- Early detection of emerging resistance mechanisms
+- Policy development for antimicrobial stewardship
+
+**Research Applications:**
+- Evolution and dissemination of resistance mechanisms
+- Novel resistance gene discovery
+- Epidemiological outbreak investigations
+
+## Pipeline Overview
+
+The following sections will provide detailed, step-by-step protocols for implementing WGS-based AMR analysis workflows tailored for both Illumina and ONT sequencing platforms. Each section includes practical examples, parameter explanations, and best practices to ensure reproducible and reliable results.
+
+Our comprehensive pipeline covers essential analysis steps from raw data quality control through final resistance characterization, providing researchers and clinicians with the tools necessary to harness the full potential of genomic technologies in combating antimicrobial resistance.
+
+### References
+
+- Ellington, M. J., Ekelund, O., Aarestrup, F. M., Canton, R., Doumith, M., Giske, C., ... & Woodford, N. (2017). **The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee**. *Clinical Microbiology and Infection*, 23(1), 2-22.
+
+- Hendriksen, R. S., Bortolaia, V., Tate, H., Tyson, G. H., Aarestrup, F. M., & McDermott, P. F. (2019). **Using genomics to track global antimicrobial resistance**. *Frontiers in Public Health*, 7, 242.
+
+- Gwinn, M., MacCannell, D., & Khabbaz, R. (2017). **Integrating advanced molecular technologies into public health**. *The Journal of Clinical Investigation*, 127(4), 1174-1182.
+
+- Wick, R. R., Judd, L. M., Gorrie, C. L., & Holt, K. E. (2017). **Completing bacterial genome assemblies with multiplex MinION sequencing**. *Microbial Genomics*, 3(10), e000132.
+
+- Punina, N. V., Makridakis, N. M., Remnev, M. A., & Topunov, A. F. (2015). **Whole-genome sequencing targets drug-resistant bacterial infections**. *Human Genomics*, 9(1), 1-9.
