@@ -95,7 +95,7 @@ Our comprehensive pipeline covers essential analysis steps from raw data quality
 
 ### References
 
-- Ellington, M. J., Ekelund, O., Aarestrup, F. M., Canton, R., Doumith, M., Giske, C., ... & Woodford, N. (2017). **The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee**. *Clinical Microbiology and Infection*, 23(1), 2-22.
+- Ellington, M. J., Ekelund, O., Aarestrup, F. M., Canton, R., Doumith, M., Giske, C., ... & Woodford, N. (2017). **The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee**. *Clinical Microbiology and Infection*, 23(1), 2-22. DOI: https://doi.org/10.1016/j.cmi.2016.11.012
 
 - Hendriksen, R. S., Bortolaia, V., Tate, H., Tyson, G. H., Aarestrup, F. M., & McDermott, P. F. (2019). **Using genomics to track global antimicrobial resistance**. *Frontiers in Public Health*, 7, 242.
 
