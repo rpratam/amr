@@ -23,6 +23,7 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 The materials are divided into several section
 
 * DNA Sequencing Platform
+  * [Sequencing Technologies: Illumina vs. Oxford Nanopore Technologies](./1_DNA_Sequencing_Platform/1_sequencing_technology.md)
   * [Short-reads technology (NGS)](./1_DNA_Sequencing_Platform/1.1_short_reads_tech.md)
     * Illumina
     * MGI
