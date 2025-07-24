@@ -22,7 +22,7 @@ An AMR analysis pipeline is a systematic workflow that processes raw sequencing 
 # **Table of Contents**
 The materials are divided into several section
 
-* DNA Sequencing Platform
+* **DNA Sequencing Platform**
   * [Sequencing Technologies: Illumina vs. Oxford Nanopore Technologies](./1_DNA_Sequencing_Platform/1_sequencing_technology.md)
   * [Short-reads technology (NGS)](./1_DNA_Sequencing_Platform/1.1_short_reads_tech.md)
     * Illumina
@@ -30,15 +30,16 @@ The materials are divided into several section
   * [Long-reads technology (TGS)](./1_DNA_Sequencing_Platform/1.2_long-reads-tech.md)
     * Oxford Nanopore Technology
     * Pacific Bioscience
-* Importance of linux
+* **Importance of linux**
   * [only have Windows? no Problem, WSL2 got your back](./2_Importance_of_Linux/2.1_linux_on_windows.md)
   * [Install conda for easier environment setup](2_Importance_of_Linux/2.2_conda_installation.md)
   * [Basic on linux command](2_Importance_of_Linux/2.3_basic_linux_commands.md)
-* Bioinformatics pipeline
+* **Bioinformatics pipeline**
  * [Before start, understand the raw sequence data (*.fastq)](./3_Bioinformatics_Pipeline/3.1_raw_sequencing_data.md)
- * NGS Whole Genome Sequence analysis (Illumina, MGI)
-    * [Quality check and filter for your fastq using Fastp](./3_Bioinformatics_Pipeline/3.2_QC-filtering_using_fastp.md)
-    * [Assemble your genome using Spades/Shovill](./3_Bioinformatics_Pipeline/3.3_assembly_using_shovill.md)
+ * **NGS Whole Genome Sequence analysis (Illumina and ONT)**
+    * **Illumina section**
+    * [Quality check and filter for your fastq using Fastp](./3_Bioinformatics_Pipeline/3.1.2_QC-filtering_using_fastp.md)
+    * [Assemble your genome using Spades/Shovill](./3_Bioinformatics_Pipeline/3.1.3_assembly_using_shovill.md)
     * [Check for the quality of assembly using QUAST](./3_Bioinformatics_Pipeline/3.4_assembly_quality_check_with_quast.md)
     * What your assembly looks like? Bandage will show you!
     * Is your genome assembly complete? Busco can help check that!
