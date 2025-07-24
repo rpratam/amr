@@ -97,10 +97,10 @@ Our comprehensive pipeline covers essential analysis steps from raw data quality
 
 - Ellington, M. J., Ekelund, O., Aarestrup, F. M., Canton, R., Doumith, M., Giske, C., ... & Woodford, N. (2017). **The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee**. *Clinical Microbiology and Infection*, 23(1), 2-22. DOI: https://doi.org/10.1016/j.cmi.2016.11.012
 
-- Hendriksen, R. S., Bortolaia, V., Tate, H., Tyson, G. H., Aarestrup, F. M., & McDermott, P. F. (2019). **Using genomics to track global antimicrobial resistance**. *Frontiers in Public Health*, 7, 242.
+- Hendriksen, R. S., Bortolaia, V., Tate, H., Tyson, G. H., Aarestrup, F. M., & McDermott, P. F. (2019). **Using genomics to track global antimicrobial resistance**. *Frontiers in Public Health*, 7, 242. DOI: https://doi.org/10.3389/fpubh.2019.00242
 
-- Gwinn, M., MacCannell, D., & Khabbaz, R. (2017). **Integrating advanced molecular technologies into public health**. *The Journal of Clinical Investigation*, 127(4), 1174-1182.
+- Gwinn, M., MacCannell, D., & Khabbaz, R. (2017). **Integrating advanced molecular technologies into public health**. *The Journal of Clinical Investigation*, 127(4), 1174-1182. DOI: https://doi.org/10.1128/jcm.01967-16
 
-- Wick, R. R., Judd, L. M., Gorrie, C. L., & Holt, K. E. (2017). **Completing bacterial genome assemblies with multiplex MinION sequencing**. *Microbial Genomics*, 3(10), e000132.
+- Wick, R. R., Judd, L. M., Gorrie, C. L., & Holt, K. E. (2017). **Completing bacterial genome assemblies with multiplex MinION sequencing**. *Microbial Genomics*, 3(10), e000132. DOI: https://doi.org/10.1099/mgen.0.000132
 
-- Punina, N. V., Makridakis, N. M., Remnev, M. A., & Topunov, A. F. (2015). **Whole-genome sequencing targets drug-resistant bacterial infections**. *Human Genomics*, 9(1), 1-9.
+- Punina, N. V., Makridakis, N. M., Remnev, M. A., & Topunov, A. F. (2015). **Whole-genome sequencing targets drug-resistant bacterial infections**. *Human Genomics*, 9(1), 1-9. DOI: https://doi.org/10.1186/s40246-015-0037-z
