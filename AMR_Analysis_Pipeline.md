@@ -35,7 +35,7 @@ The materials are divided into several section
   * [Install conda for easier environment setup](2_Importance_of_Linux/2.2_conda_installation.md)
   * [Basic on linux command](2_Importance_of_Linux/2.3_basic_linux_commands.md)
 * **Bioinformatics pipeline**
- * [Before start, understand the raw sequence data (*.fastq)](./3_Bioinformatics_Pipeline/3.1_raw_sequencing_data.md)
+ * [Before start, understand the raw sequence data (*.fastq)](./3_Bioinformatics_Pipeline/3.1.1_raw_sequencing_data.md)
  * **NGS Whole Genome Sequence analysis (Illumina and ONT)**
     * **Illumina section**
     * [Quality check and filter for your fastq using Fastp](./3_Bioinformatics_Pipeline/3.1.2_QC-filtering_using_fastp.md)
