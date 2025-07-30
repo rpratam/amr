@@ -41,6 +41,8 @@ The materials are divided into several section
     * [Quality check and filter for your fastq using Fastp](./3_Bioinformatics_Pipeline/3.1.2_QC-filtering_using_fastp.md)
     * [Assemble your genome using Spades/Shovill](./3_Bioinformatics_Pipeline/3.1.3_assembly_using_shovill.md)
     * [Check for the quality of assembly using QUAST](./3_Bioinformatics_Pipeline/3.4_assembly_quality_check_with_quast.md)
+    * **Oxford Nanopore Technologies section**
+    * [Quality check of basecalled fastq using NanoPlot](./3_Bioinformatics_Pipeline/3.2.1_QC_nanopore_data.md)
     * What your assembly looks like? Bandage will show you!
     * Is your genome assembly complete? Busco can help check that!
     * Does your assembly free from contamination? lets ask CheckM!
