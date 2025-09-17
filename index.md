@@ -129,7 +129,8 @@ Mempelajari analisis genom untuk deteksi AMR dimulai dengan pemahaman teknologi 
 **AMR Detection:** Abricate dengan multiple databases  
 **Environment:** Conda untuk package management
 
-Bila sudah siap, klik tautan berikut untuk memulai: <h4>**[Panduan Analisis Pipeline AMR][AMR_Analysis_Pipeline]**</h4>
+Bila sudah siap, klik tautan berikut untuk memulai:
+#### **[Panduan Analisis Pipeline AMR][AMR_Analysis_Pipeline]**
 
 
 ---
