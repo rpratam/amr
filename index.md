@@ -1,3 +1,5 @@
+![collaboration-logo](./IM/Github_image_banner.png)
+
 # Selamat Datang di Panduan Analisis Pipeline AMR
 
 ## Menghadapi Tantangan Resistensi Antimikroba di Era Modern
