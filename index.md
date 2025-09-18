@@ -2,13 +2,13 @@
 
 # Pipeline Analisis AMR
 
-## Menghadapi Tantangan Resistensi Antimikroba di Era Modern
+## Menghadapi tantangan resistensi antimikroba di era modern
 
 Resistensi Antimikroba (AMR) telah menjadi salah satu ancaman kesehatan global yang paling mendesak di abad ke-21. Fenomena ini terjadi ketika bakteri, virus, jamur, dan parasit mengembangkan kemampuan untuk melawan obat-obatan yang sebelumnya efektif dalam mengobati infeksi yang mereka sebabkan. Akibatnya, pengobatan standar menjadi tidak efektif, infeksi menjadi lebih sulit disembuhkan, dan risiko penyebaran penyakit, komplikasi serius, bahkan kematian meningkat drastis.
 
 Di Indonesia, masalah AMR semakin mengkhawatirkan dengan meningkatnya kasus infeksi yang resisten terhadap antibiotik. Menurut data WHO, AMR dapat menyebabkan 10 juta kematian per tahun pada 2050 jika tidak ditangani dengan serius. Oleh karena itu, kemampuan untuk mengidentifikasi dan menganalisis mekanisme resistensi melalui teknologi sekuensing DNA menjadi kunci utama dalam memerangi masalah ini.
 
-## Untuk Siapa Panduan Ini?
+## Untuk siapa panduan ini?
 
 Panduan komprehensif ini dirancang khusus untuk:
 
@@ -28,8 +28,8 @@ Panduan komprehensif ini dirancang khusus untuk:
 
 **Tidak diperlukan pengalaman sebelumnya dengan Linux atau pipeline bioinformatika!** Panduan ini dirancang untuk memandu Anda langkah demi langkah, mulai dari konsep dasar hingga analisis lanjutan.
 
-## Apa yang Akan Anda Pelajari?
-### Teknologi Sekuensing DNA
+## Apa yang akan anda pelajari?
+### Teknologi sekuensing DNA
 - **Platform Illumina vs Oxford Nanopore Technologies**: Perbandingan komprehensif kedua teknologi utama
 - **Short-reads technology (NGS)**:
   - Platform Illumina dan kelebihan analisis presisi tinggi
@@ -39,19 +39,19 @@ Panduan komprehensif ini dirancang khusus untuk:
   - Pacific Bioscience untuk akurasi tinggi long-reads
 - **Pemilihan strategi**: Kapan menggunakan teknologi tertentu untuk analisis AMR
 
-### Pentingnya Linux dalam Bioinformatika  
+### Pentingnya linux dalam bioinformatika  
 - **Setup Environment**: Instalasi Windows Subsystem for Linux 2 (WSL2) untuk pengguna Windows
 - **Conda Environment**: Pengelolaan software bioinformatika dengan mudah
 - **Linux Command Basics**: Perintah fundamental untuk navigasi dan manipulasi data genomik
 - **File Management**: Pengelolaan data sekuensing berukuran besar secara efisien
 
 ### Pipeline Bioinformatika _Whole Genome Sequencing_ Bakteri
-#### Memahami Data Raw Sequence (*.fastq)
+#### Memahami data raw sequence (*.fastq)
 - Struktur dan format file FASTQ
 - Quality scores dan interpretasinya
 - Characteristics data Illumina vs ONT
 
-#### Alur Kerja pipeline ini
+#### Alur kerja pipeline ini
 - _Quality control_ dan _filtering data_
 - Perakitan genom
 - Evaluasi kualitas hasil _assembly_
@@ -62,15 +62,15 @@ Panduan komprehensif ini dirancang khusus untuk:
 - Identifikasi gen resistensi antimikroba
 
 
-## Mengapa AMR Menjadi Fokus Utama?
-### Dampak Global dan Lokal
+## Mengapa AMR menjadi fokus utama?
+### Dampak global dan lokal
 Resistensi antimikroba bukan hanya masalah medis, tetapi juga:
 - **Ekonomi**: Biaya perawatan yang meningkat drastis
 - **Sosial**: Meningkatnya morbiditas dan mortalitas
 - **Ketahanan Pangan**: Resistensi pada patogen tanaman dan hewan
 - **Keamanan Nasional**: Potensi bioterrorisme menggunakan patogen resisten
 
-### Kondisi di Indonesia
+### Kondisi di indonesia
 Indonesia menghadapi tantangan unik dalam penanganan AMR:
 - Tingginya penggunaan antibiotik tanpa resep
 - Keterbatasan fasilitas diagnostik molekuler
@@ -84,8 +84,8 @@ Melalui pemahaman dan identifikasi gen resistensi dari data sekuensing, kita dap
 - Berkontribusi pada surveilans global AMR
 
 
-## Cara Menggunakan Panduan Ini
-### Struktur Pembelajaran Bertahap
+## Cara menggunakan panduan ini
+### Struktur pembelajaran bertahap
 Panduan ini dirancang dengan pendekatan learning pathway yang sistematis:
 
 **Level Foundation: Teknologi Sekuensing**
@@ -111,16 +111,16 @@ Panduan ini dirancang dengan pendekatan learning pathway yang sistematis:
 
 Mempelajari analisis genom untuk deteksi AMR dimulai dengan pemahaman teknologi sekuensing, kemudian berlanjut ke _setup environment_ analisis, dan akhirnya _hands-on_ analisis dengan perangkat lunak profesional.
 
-### Roadmap Pembelajaran:
+### Roadmap pembelajaran:
 **Langkah 1:** Pahami platform sekuensing → **Langkah 2:** _Setup Linux environment_ → **Langkah 3:** Praktik analisis Illumina → **Langkah 4:** Praktik analisis ONT → **Langkah 5:** Identifikasi gen AMR
 
-### 🔧 Yang Perlu Dipersiapkan:
+### Yang perlu dipersiapkan:
 - Komputer dengan akses internet (Windows/Mac/Linux)
 - Minimal 16Gb RAM (64GB recommended untuk dataset besar)  
 - Ruang storage (SSD) 100GB+ untuk software dan sample data
 - Koneksi internet stabil untuk download _tools_ dan _databases_
 
-### 🛠️ Software Ecosystem yang Akan Dikuasai:
+### Software ecosystem yang akan dikuasai:
 **Quality Control & Preprocessing:** Fastp, NanoPlot  
 **Genome Assembly:** Spades, Shovill, Flye  
 **Assembly Evaluation:** QUAST, BUSCO, CheckM  
@@ -137,12 +137,12 @@ Bila sudah siap, klik tautan berikut untuk memulai:
 
 ### Kontribusi dan Dukungan
 
-**💡 Kontribusi:** Panduan ini adalah proyek open-source yang terus berkembang. Kami sangat menghargai kontribusi berupa:
+**Kontribusi:** Panduan ini adalah proyek open-source yang terus berkembang. Kami sangat menghargai kontribusi berupa:
 - Pelaporan bug atau error dalam tutorial
 - Saran improvement untuk konten
 - Penambahan studi kasus baru
 
-**🔄 Update Berkala:** Panduan ini diperbarui secara berkala untuk mencerminkan:
+**Update Berkala:** Panduan ini diperbarui secara berkala untuk mencerminkan:
 - Perkembangan terbaru dalam teknologi sekuensing
 - Tools dan database AMR yang baru
 - Best practices dalam analisis bioinformatika
@@ -152,7 +152,7 @@ Bila sudah siap, klik tautan berikut untuk memulai:
 
 ## Referensi Ilmiah
 
-Panduan ini dikembangkan berdasarkan literatur ilmiah terkini dari jurnal-jurnal bereputasi internasional. Berikut adalah referensi utama yang mendukung metodologi dan praktek terbaik yang dijelaskan dalam panduan:
+Panduan ini dikembangkan berdasarkan literatur ilmiah terkini dari jurnal-jurnal bereputasi internasional sebagai berikut:
 
 - Bird, M. T., Greig, D. R., Nair, S., Jenkins, C., Godbole, G., & Gharbia, S. E. (2022). Use of Nanopore Sequencing to Characterise the Genomic Architecture of Mobile Genetic Elements Encoding blaCTX-M-15 in Escherichia coli Causing Travellers’ Diarrhoea. Frontiers in Microbiology, 13. https://doi.org/10.3389/fmicb.2022.862234
 
