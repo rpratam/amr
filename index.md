@@ -130,7 +130,7 @@ Mempelajari analisis genom untuk deteksi AMR dimulai dengan pemahaman teknologi 
 **Environment:** Conda untuk package management
 
 Bila sudah siap, klik tautan berikut untuk memulai:
-#### **[Panduan Analisis Pipeline AMR][AMR_Analysis_Pipeline]**
+## **[Panduan Analisis Pipeline AMR][AMR_Analysis_Pipeline]**
 
 
 ---

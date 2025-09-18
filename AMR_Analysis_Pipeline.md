@@ -1,17 +1,40 @@
 ![collaboration-logo](./IM/Github_image_banner.png)
 
-# **Introduction to AMR Analysis Pipeline**
+# **Pengantar Pipeline Analisis AMR**
 
-Antimicrobial Resistance (AMR) analysis involves identifying genes in bacterial genomes that confer resistance to antibiotics. With advancements in sequencing technologies, researchers can now detect these resistance genes directly from sequencing data, enabling proactive monitoring and management of AMR.​
+## Apa itu analisis AMR?
+Analisis Resistensi Antimikroba (AMR) melibatkan identifikasi gen dalam genom bakteri yang memberikan resistensi terhadap antibiotik. Dengan kemajuan teknologi sekuensing, peneliti kini dapat mendeteksi gen resistensi ini secara langsung dari data sekuensing, memungkinkan pemantauan dan pengelolaan AMR secara proaktif.
 
-## Understanding the AMR Analysis Pipeline
+Untuk memahami pipeline analisis AMR, diperlukan pemahaman terhadap alur kerja sistematis yang memproses data sekuensing mentah untuk mengidentifikasi dan mengkarakterisasi gen resistensi antimikroba.
 
-An AMR analysis pipeline is a systematic workflow that processes raw sequencing data to identify and characterize antimicrobial resistance genes. The primary steps include:​
+1. Kontrol Kualitas (Quality Control)
+- Menilai dan memastikan kualitas reads sekuensing mentah
+- Memfilter data berkualitas rendah
+- Tools: FastP, FastQC, NanoPlot (untuk ONT)
 
-1. **Quality Control:** Assessing and ensuring the quality of raw sequencing reads to filter out low-quality data.​
-2. **Assembly:** Reconstructing the genome from quality-filtered reads.​
-3. **Annotation:** Identifying genes and predicting their functions within the assembled genome.​
-4. **AMR Gene Detection:** Screening the annotated genome for known resistance genes using specialized databases and tools.​
+2. Assembly Genom
+- Merekonstruksi genom dari reads yang telah difilter
+- Menghasilkan kontigs atau scaffolds
+- Tools: SPAdes, Shovill, Flye (untuk long reads)
+
+3. Anotasi Genom
+- Mengidentifikasi gen dan memprediksi fungsinya dalam genom yang telah di-assembly
+- Menentukan lokasi dan fungsi setiap gen
+- Tools: Prokka, PGAP, Bakta
+
+4. Deteksi Gen AMR
+- Skrining genom yang telah dianotasi untuk gen resistensi yang dikenal
+- Menggunakan database dan tools khusus
+- Tools: ABRicate, AMRFinderPlus, RGI
+
+### Database AMR
+| Database | Deskripsi | Kelebihan | Penggunaan |
+|----------|-----------|-----------|------------|
+| **MEGARes** | Database gen resistensi antimikroba yang dikurasi untuk analisis data high-throughput sequencing | Klasifikasi hierarkis, update berkala | Analisis metagenomik |
+| **CARD** | Comprehensive Antibiotic Resistance Database - menyediakan data dasar molekuler AMR | Database paling komprehensif | Analisis genom isolat |
+| **ResFinder** | Database untuk identifikasi gen resistensi yang diperoleh | Fokus pada resistensi yang diperoleh | Screening klinis |
+| **NCBI AMRFinderPlus** | Database terintegrasi dengan NCBI untuk identifikasi gen AMR | Terintegrasi dengan NCBI, validasi klinis | Surveillance global |
+
 
 ## Key Tools and Databases
 * **MEGARes:** A curated database of antimicrobial resistance genes designed for high-throughput sequencing data analysis. ​
