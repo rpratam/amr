@@ -26,8 +26,6 @@ Panduan komprehensif ini dirancang khusus untuk:
 - Profesional IT yang tertarik beralih ke bioinformatika
 - Lulusan komputer atau statistika yang ingin menerapkan keahliannya di bidang kesehatan
 
-**Tidak diperlukan pengalaman sebelumnya dengan Linux atau pipeline bioinformatika!** Panduan ini dirancang untuk memandu Anda langkah demi langkah, mulai dari konsep dasar hingga analisis lanjutan.
-
 ## Apa yang akan anda pelajari?
 ### Teknologi sekuensing DNA
 - **Platform Illumina vs Oxford Nanopore Technologies**: Perbandingan komprehensif kedua teknologi utama

@@ -1,99 +1,99 @@
 ![collaboration-logo](../IM/Github_image_banner.png)
 
-# **Sequencing Technologies: Illumina vs. Oxford Nanopore Technologies**
+# **Teknologi Sekuensing: Illumina vs. Oxford Nanopore Technologies**
 
-The choice of sequencing technology significantly impacts the approach, capabilities, and outcomes of WGS-based AMR analysis. Two dominant platforms currently lead the field, each with distinct advantages and considerations:
+Pemilihan teknologi sekuensing sangat mempengaruhi pendekatan, kapabilitas, dan hasil analisis AMR berbasis WGS. Dua platform dominan saat ini memimpin bidang ini, masing-masing dengan keunggulan dan pertimbangan yang berbeda:
 
-### Illumina Sequencing Technology
+### Teknologi Sekuensing Illumina
 
-**Illumina platforms** utilize sequencing-by-synthesis chemistry to generate high-quality, short reads typically ranging from 75 to 300 base pairs. This technology has been the gold standard for genomic sequencing due to its exceptional accuracy and cost-effectiveness.
+**Platform Illumina** menggunakan kimia sequencing-by-synthesis untuk menghasilkan reads pendek berkualitas tinggi yang umumnya berkisar antara 75 hingga 300 pasang basa. Teknologi ini telah menjadi standar emas untuk sekuensing genomik karena akurasi yang luar biasa dan efektivitas biayanya.
 
-**Key Characteristics:**
-- **High accuracy**: Error rates typically <0.1%, ensuring reliable variant calling
-- **High throughput**: Capable of generating hundreds of millions of reads per run
-- **Cost-effective**: Lower per-base sequencing costs, especially for high-throughput applications
-- **Mature bioinformatics**: Well-established analysis pipelines and extensive tool availability
-- **Standardized workflows**: Reproducible protocols widely adopted in clinical and research settings
+**Karakteristik Utama:**
+- **Akurasi tinggi**: Tingkat kesalahan umumnya <0,1%, memastikan variant calling yang dapat diandalkan
+- **Throughput tinggi**: Mampu menghasilkan ratusan juta reads per run
+- **Efektif biaya**: Biaya per-basa sekuensing yang lebih rendah, terutama untuk aplikasi throughput tinggi
+- **Bioinformatika matang**: Pipeline analisis yang sudah mapan dan ketersediaan tools yang luas
+- **Workflow terstandar**: Protokol yang dapat direproduksi dan banyak diadopsi dalam setting klinis dan penelitian
 
-**Applications in AMR Analysis:**
-- Accurate identification of point mutations and small indels
-- Reliable detection of known resistance genes
-- High-resolution strain typing and phylogenetic analysis
-- Large-scale surveillance studies and population genomics
-- Clinical diagnostics requiring high accuracy
+**Aplikasi dalam Analisis AMR:**
+- Identifikasi akurat mutasi titik dan indel kecil
+- Deteksi yang dapat diandalkan untuk gen resistensi yang dikenal
+- Strain typing resolusi tinggi dan analisis filogenetik
+- Studi surveilans skala besar dan genomik populasi
+- Diagnostik klinis yang memerlukan akurasi tinggi
 
 ### Oxford Nanopore Technologies (ONT)
 
-**Oxford Nanopore platforms** employ nanopore sequencing technology to generate long reads, typically ranging from hundreds to hundreds of thousands of base pairs. This technology offers unique advantages for complex genomic analyses.
+**Platform Oxford Nanopore** menggunakan teknologi nanopore sequencing untuk menghasilkan reads panjang, umumnya berkisar dari ratusan hingga ratusan ribu pasang basa. Teknologi ini menawarkan keunggulan unik untuk analisis genomik yang kompleks.
 
-**Key Characteristics:**
-- **Long reads**: Average read lengths of 10-50 kb, with some reads exceeding 100 kb
-- **Real-time sequencing**: Live data streaming enables rapid analysis during sequencing
-- **Portable platforms**: Compact devices suitable for point-of-care and field applications
-- **Direct RNA/DNA sequencing**: No amplification bias, preserves native modifications
-- **Rapid library preparation**: Sample-to-sequence workflows achievable in hours
+**Karakteristik Utama:**
+- **Reads panjang**: Panjang read rata-rata 10-50 kb, dengan beberapa reads melebihi 100 kb
+- **Sekuensing real-time**: Streaming data langsung memungkinkan analisis cepat selama sekuensing
+- **Platform portabel**: Perangkat kompak yang cocok untuk point-of-care dan aplikasi lapangan
+- **Sekuensing DNA/RNA langsung**: Tidak ada bias amplifikasi, mempertahankan modifikasi asli
+- **Preparasi library cepat**: Workflow sampel-ke-sekuen dapat dicapai dalam hitungan jam
 
-**Applications in AMR Analysis:**
-- Resolution of complex genomic structures and repetitive regions
-- Complete characterization of resistance plasmids and mobile genetic elements
-- Real-time outbreak investigation and contact tracing
-- Point-of-care diagnostics in resource-limited settings
-- Detection of structural variants and large-scale genomic rearrangements
+**Aplikasi dalam Analisis AMR:**
+- Resolusi struktur genomik kompleks dan daerah repetitif
+- Karakterisasi lengkap plasmid resistensi dan elemen genetik mobile
+- Investigasi outbreak real-time dan pelacakan kontak
+- Diagnostik point-of-care di setting dengan sumber daya terbatas
+- Deteksi varian struktural dan rearrangement genomik skala besar
 
-## Comparative Analysis: Technology Selection Considerations
+## Analisis Komparatif: Pertimbangan Pemilihan Teknologi
 
-| Aspect | Illumina | Oxford Nanopore |
+| Aspek | Illumina | Oxford Nanopore |
 |--------|----------|-----------------|
-| **Read accuracy** | >99.9% | ~95-98% (improving) |
-| **Read length** | 75-300 bp | 10-50+ kb average |
-| **Throughput** | Very high | Moderate to high |
-| **Cost per base** | Low | Moderate |
-| **Turnaround time** | 1-3 days | Hours to 1 day |
-| **Equipment cost** | High | Low to moderate |
-| **Portability** | Limited | High |
-| **Assembly quality** | Good contiguity | Excellent contiguity |
-| **Plasmid resolution** | Challenging | Excellent |
-| **Point mutations** | Excellent detection | Good detection |
+| **Akurasi read** | >99,9% | ~95-98% (terus meningkat) |
+| **Panjang read** | 75-300 bp | 10-50+ kb rata-rata |
+| **Throughput** | Sangat tinggi | Sedang hingga tinggi |
+| **Biaya per basa** | Rendah | Sedang |
+| **Waktu penyelesaian** | 1-3 hari | Jam hingga 1 hari |
+| **Biaya peralatan** | Tinggi | Rendah hingga sedang |
+| **Portabilitas** | Terbatas | Tinggi |
+| **Kualitas assembly** | Kontiguitas baik | Kontiguitas sangat baik |
+| **Resolusi plasmid** | Menantang | Sangat baik |
+| **Mutasi titik** | Deteksi sangat baik | Deteksi baik |
 
-## Integrated Workflow Overview
+## Gambaran Workflow Terintegrasi
 
-Modern WGS-based AMR analysis often benefits from hybrid approaches that leverage the strengths of both technologies. However, platform-specific workflows are also highly effective when optimized appropriately.
+Analisis AMR berbasis WGS modern sering mendapat manfaat dari pendekatan hibrid yang memanfaatkan kekuatan kedua teknologi. Namun, workflow spesifik platform juga sangat efektif ketika dioptimalkan dengan tepat.
 
-**Core Analysis Steps:**
-1. **Quality Control and Preprocessing**: Raw sequencing data assessment and filtering
-2. **Genome Assembly**: Reconstruction of genomic sequences from sequencing reads
-3. **Assembly Quality Assessment**: Evaluation of assembly completeness and accuracy
-4. **Assembly Visualization**: Structural analysis of genomic organization
-5. **Resistance Gene Detection**: Identification and characterization of AMR determinants
-6. **Phylogenetic Analysis**: Evolutionary relationships and transmission tracking
-7. **Report Generation**: Comprehensive AMR profile summarization
+**Langkah Analisis Inti:**
+1. **Quality Control dan Preprocessing**: Penilaian dan filtering data sekuensing mentah
+2. **Genome Assembly**: Rekonstruksi sekuens genomik dari reads sekuensing
+3. **Penilaian Kualitas Assembly**: Evaluasi kelengkapan dan akurasi assembly
+4. **Visualisasi Assembly**: Analisis struktural organisasi genomik
+5. **Deteksi Gen Resistensi**: Identifikasi dan karakterisasi determinan AMR
+6. **Analisis Filogenetik**: Hubungan evolusioner dan pelacakan transmisi
+7. **Pembuatan Laporan**: Ringkasan profil AMR yang komprehensif
 
-## Clinical and Public Health Applications
+## Aplikasi Klinis dan Kesehatan Masyarakat
 
-WGS-based AMR analysis has transformative applications across multiple domains:
+Analisis AMR berbasis WGS memiliki aplikasi transformatif di berbagai domain:
 
-**Clinical Microbiology:**
-- Rapid resistance profiling for treatment guidance
-- Infection control and hospital epidemiology
-- Precision antimicrobial therapy selection
+**Mikrobiologi Klinis:**
+- Profiling resistensi cepat untuk panduan pengobatan
+- Pengendalian infeksi dan epidemiologi rumah sakit
+- Pemilihan terapi antimikroba presisi
 
-**Public Health Surveillance:**
-- National and international AMR monitoring
-- Early detection of emerging resistance mechanisms
-- Policy development for antimicrobial stewardship
+**Surveilans Kesehatan Masyarakat:**
+- Monitoring AMR nasional dan internasional
+- Deteksi dini mekanisme resistensi yang muncul
+- Pengembangan kebijakan untuk antimicrobial stewardship
 
-**Research Applications:**
-- Evolution and dissemination of resistance mechanisms
-- Novel resistance gene discovery
-- Epidemiological outbreak investigations
+**Aplikasi Penelitian:**
+- Evolusi dan diseminasi mekanisme resistensi
+- Penemuan gen resistensi baru
+- Investigasi outbreak epidemiologi
 
-## Pipeline Overview
+## Gambaran Pipeline
 
-The following sections will provide detailed, step-by-step protocols for implementing WGS-based AMR analysis workflows tailored for both Illumina and ONT sequencing platforms. Each section includes practical examples, parameter explanations, and best practices to ensure reproducible and reliable results.
+Bagian-bagian berikut akan menyediakan protokol langkah demi langkah yang rinci untuk mengimplementasikan workflow analisis AMR berbasis WGS yang disesuaikan untuk platform sekuensing Illumina dan ONT. Setiap bagian mencakup contoh praktis, penjelasan parameter, dan praktik terbaik untuk memastikan hasil yang dapat direproduksi dan dapat diandalkan.
 
-Our comprehensive pipeline covers essential analysis steps from raw data quality control through final resistance characterization, providing researchers and clinicians with the tools necessary to harness the full potential of genomic technologies in combating antimicrobial resistance.
+Pipeline komprehensif kami mencakup langkah-langkah analisis penting dari quality control data mentah hingga karakterisasi resistensi akhir, memberikan peneliti dan klinisi tools yang diperlukan untuk memanfaatkan potensi penuh teknologi genomik dalam memerangi resistensi antimikroba.
 
-### References
+### Referensi
 
 - Ellington, M. J., Ekelund, O., Aarestrup, F. M., Canton, R., Doumith, M., Giske, C., ... & Woodford, N. (2017). **The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee**. *Clinical Microbiology and Infection*, 23(1), 2-22. DOI: https://doi.org/10.1016/j.cmi.2016.11.012
 
