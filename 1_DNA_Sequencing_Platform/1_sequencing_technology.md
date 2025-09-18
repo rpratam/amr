@@ -6,7 +6,7 @@ Pemilihan teknologi sekuensing sangat mempengaruhi pendekatan, kapabilitas, dan 
 
 ### Teknologi Sekuensing Illumina
 
-**Platform Illumina** menggunakan kimia sequencing-by-synthesis untuk menghasilkan reads pendek berkualitas tinggi yang umumnya berkisar antara 75 hingga 300 pasang basa. Teknologi ini telah menjadi standar emas untuk sekuensing genomik karena akurasi yang luar biasa dan efektivitas biayanya.
+**Platform Illumina** menggunakan konsep _sequencing-by-synthesis_ untuk menghasilkan _reads_ pendek berkualitas tinggi yang umumnya berkisar antara 75 hingga 300 pasang basa. Teknologi ini telah menjadi standar emas untuk sekuensing genomik karena akurasi yang luar biasa dan efektivitas biayanya.
 
 **Karakteristik Utama:**
 - **Akurasi tinggi**: Tingkat kesalahan umumnya <0,1%, memastikan variant calling yang dapat diandalkan
@@ -60,10 +60,10 @@ Pemilihan teknologi sekuensing sangat mempengaruhi pendekatan, kapabilitas, dan 
 Analisis AMR berbasis WGS modern sering mendapat manfaat dari pendekatan hibrid yang memanfaatkan kekuatan kedua teknologi. Namun, workflow spesifik platform juga sangat efektif ketika dioptimalkan dengan tepat.
 
 **Langkah Analisis Inti:**
-1. **Quality Control dan Preprocessing**: Penilaian dan filtering data sekuensing mentah
-2. **Genome Assembly**: Rekonstruksi sekuens genomik dari reads sekuensing
-3. **Penilaian Kualitas Assembly**: Evaluasi kelengkapan dan akurasi assembly
-4. **Visualisasi Assembly**: Analisis struktural organisasi genomik
+1. **_Quality Control_ dan _Preprocessing_**: Penilaian dan filtering data sekuensing mentah
+2. **_Genome Assembly_**: Rekonstruksi sekuens genomik dari reads sekuensing
+3. **Penilaian Kualitas _Assembly_**: Evaluasi kelengkapan dan akurasi assembly
+4. **Visualisasi _Assembly_**: Analisis struktural organisasi genomik
 5. **Deteksi Gen Resistensi**: Identifikasi dan karakterisasi determinan AMR
 6. **Analisis Filogenetik**: Hubungan evolusioner dan pelacakan transmisi
 7. **Pembuatan Laporan**: Ringkasan profil AMR yang komprehensif
